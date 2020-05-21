@@ -11,6 +11,7 @@ Original file is located at
 Credits to @hshustc
 Taken from https://github.com/hshustc/CVPR19_Incremental_Learning/tree/master/cifar100-class-incremental
 """
+import torch.nn as nn
 
 def conv3x3(in_planes, out_planes, stride=1):
     """3x3 convolution with padding"""
